@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Testing this v2 by deploying....!!!");
+  res.send("Testing this v3 by deploying....!!!");
 });
 
 app.get("/cpu", (req, res) => {
